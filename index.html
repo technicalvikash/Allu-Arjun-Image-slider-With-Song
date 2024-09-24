@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> ALLU Image Slider</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="slider-container">
+      <div class="slider-images">
+        <div class="slider-img">
+          <img src="Images/n1.jpg" alt="1" />
+          <h1>API</h1>
+          <div class="details">
+            <h2></h2>
+            <p>Superstar of Tollywood</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/n10.jpg" alt="2" />
+          <h1>Love</h1>
+          <div class="details">
+            <h2></h2>
+            <p>SylishStar</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/n3.jpg" alt="3" />
+          <h1>Arya</h1>
+          <div class="details">
+            <h2></h2>
+            <p>Perfect man</p>
+          </div>
+        </div>
+        <div class="slider-img active">
+          <img src="Images/n4.jpg" alt="4" />
+          <h1>Heart</h1>
+          <div class="details">
+            <h2></h2>
+            <p>Pushpa Raj</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/n5.jpg" alt="5" />
+          <h1>Surya</h1>
+          <div class="details">
+            <h2></h2>
+            <p>Bunny</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/n8.jpg" alt="6" />
+          <h1>AA</h1>
+          <div class="details">
+            <h2></h2>
+            <p>Best Actor of the World</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/n9.jpg" alt="7" />
+          <h1>allu arjun</h1>
+          <div class="details">
+            <h2></h2>
+            <p>DJ</p>
+          </div>
+        </div>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Love You</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg_heart"></div>
+
+<div class="container">
+<h2 id="text1"></h2>
+</div>
+
+<!-- Background Music -->
+<audio id="background-music" autoplay loop>
+<source src="Buttabomma - SenSongsMp3.Co.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+      
+      
+      </div>
+
+    </section>
+    <script src="js/jQuery.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $(".slider-img").on("click", function () {
+          $(".slider-img").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
